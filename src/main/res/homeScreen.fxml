@@ -6,9 +6,11 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="main.Main"
-            prefHeight="400.0" prefWidth="600.0">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.HomeController">
+   <children>
+   
+       <Button fx:id="genericEditingButton" layoutX="78.0" layoutY="112.0" onAction="#goToGenericEditing" text="Generic Editing" />
+       <Button fx:id="nymEditingButton" layoutX="354.0" layoutY="112.0" onAction="#goToNymEditing" text="Nym Editing" />
+   </children>
 
 </AnchorPane>
